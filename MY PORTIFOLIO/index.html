@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hithesh Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Hithesh</a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to <span id="dynamic-text"></span></h1>
+            <p>🌟 Where ideas meet innovation. Explore my journey in software development, data science, and web technologies.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills 💻</h2>
+            <div class="grid">
+                <div class="card">Java ☕</div>
+                <div class="card">Python 🐍</div>
+                <div class="card">JavaScript 🌐</div>
+                <div class="card">HTML & CSS 🎨</div>
+                <div class="card">SQL 📊</div>
+                <div class="card">Power BI 📈</div>
+            </div>
+        </div>
+    </section>
+    <!-- Education Section -->
+<section id="education" class="section">
+    <div class="container">
+        <h2>Education 🎓</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>B.E. in CSE (Data Science)</h3>
+                <p><strong>Institute:</strong> Sai Vidya Institute of Technology</p>
+                <p><strong>CGPA:</strong> 8.6</p>
+                <p><strong>Duration:</strong> 2021 - 2025</p>
+            </div>
+            <div class="card">
+                <h3>Intermediate (MPC)</h3>
+                <p><strong>Institute:</strong> Sri Chaitanya Junior College</p>
+                <p><strong>Percentage:</strong> 76.6%</p>
+                <p><strong>Duration:</strong> 2019 - 2021</p>
+            </div>
+            <div class="card">
+                <h3>High School (CBSE)</h3>
+                <p><strong>School:</strong> Silver Bells Central School</p>
+                <p><strong>Percentage:</strong> 74.4%</p>
+                <p><strong>Duration:</strong> 2014 - 2019</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects 🚀</h2>
+            <div class="grid">
+                <div class="project-card">
+                    <h3>Pneumonia Detection</h3>
+                    <p>Using CNN to achieve 92% accuracy in diagnosing pneumonia from X-rays.</p>
+                </div>
+                <div class="project-card">
+                    <h3>E-Commerce Website</h3>
+                    <p>Interactive shopping cart experience using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project-card">
+                    <h3>ATM Management System</h3>
+                    <p>Java-based system with OOP principles for secure transactions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contact Me 📬</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" required>
+                <label for="name">Your Name</label>
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" required>
+                <label for="email">Your Email</label>
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="form-group">
+                <textarea id="message" rows="5" required></textarea>
+                <label for="message">Your Message</label>
+                <i class="fas fa-comment"></i>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p class="form-feedback" id="form-feedback"></p>
+    </div>
+</section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Hithesh Portfolio. Inspired by many. 🌟</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
